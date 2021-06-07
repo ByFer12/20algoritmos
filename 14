@@ -1,0 +1,14 @@
+Inicio 
+    var numero1
+    var numero2
+    Escribir "Ingrese un numero"
+    leer(numero1)
+    Escribir "Ingrese otro nunero"
+    leer(numero2)
+    si(numero1%numero2==0)
+        mostrar(Son divisibles)
+    sino
+        mostrar(Noo son divisibles)
+    finsi
+
+Fin
