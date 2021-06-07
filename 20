@@ -1,0 +1,24 @@
+Algoritmo Capicua_1
+
+Escribir "Ingrese un número"
+Leer(Numero)
+Calcular_Cant_Cifras
+
+Es_Capicua<- V
+    Mientras Cant_Cifras>1  ^  Es_Capicua Hacer
+            Hallar_Primera_Cifra
+            Hallar_Ultima_Cifra
+            Si Primera_Cifra=Ultima_Cifra entonces
+                  Cant_Cifras=Cant_Cifras-2
+                  Sacar_Primera_Ultima
+            Si no
+                  Es_Capicua<- F
+            Fin si
+    Fin Mientras
+    Si Es_Capicua entonces
+        Escribir(‘Es Capicua’)
+        Si no
+        Escribir(‘Es Capicua’)
+    Fin si
+Fin Algoritmo
+
