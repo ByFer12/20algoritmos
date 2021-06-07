@@ -1,0 +1,21 @@
+Inicio 
+    var numero
+    var centrimetros
+    var metros
+    var pulgadas
+    var pies
+    var yardas
+    escribir "Ingrese un numero "
+    leer(numero)
+    centimetros=numero*100
+    metros=numero
+    pulgadas=numero*39.3701
+    pies=numero*3.28084
+    yardas= numero*1.09361
+    mostrar(Hay "centimetros" en el numero ingresado)
+    mostrar(Hay "metros" en el numero ingresado)
+    mostrar(Hay "pulgadas" en el numero ingresado)
+    mostrar(Hay "pies" en el numero ingresado)
+    mostrar(Hay "yardas" en el numero ingresado)
+Fin
+
