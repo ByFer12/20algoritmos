@@ -1,0 +1,25 @@
+Inicio
+    var numero, suma
+    escribir "Ingrese un numero, maximo de 4 digitos"
+    leer(numero)
+    si(numero<10000)
+        leer cada posicion de cada dígito
+        mostrar uno por uno
+        sumar cada dígito y mostrar resultado
+    sino si(numero<1000)
+        leer cada posicion de cada dígito
+        mostrar uno por uno
+        sumar cada dígito y mostrar resultado
+    sino si (numero<100)
+        leer cada posicion de cada dígito
+        mostrar uno por uno
+        sumar cada dígito y mostrar resultado
+    sino si(numero<10)
+
+        leer cada posicion de cada dígito
+        mostrar uno por uno
+        sumar cada dígito y mostrar resultado
+    sino
+        mostrar (No se puede hacer tal operacion)
+    finsi
+Fin
