@@ -1,0 +1,20 @@
+Inicio
+    var lado1
+    var lado2
+    var lado3
+    escribir "Ingrese el primer lado"
+    leer(lado)
+    escribir "Ingrese el segundo lado"
+    leer(lado2)
+    escribir "Ingrese el tercer lado"
+    leer(lado3)
+    si(lado1==lado2 && lado2==lado3)
+        mostrar(Es un triangulo equilatero)
+    sino si(lado1==lado2 || lado2==lado3 || lado1==lado3)
+        mostrar (El triangulo es isoseles)
+    sino
+        mostrar (El triangulo es escaleno)
+
+    finsi
+
+Fin        
