@@ -1,0 +1,17 @@
+Inicio
+    var altura
+    var radio
+    var volumen
+    Escribir "Escriba la altura de la figura geometrica"
+    leer(altura)
+    Escribir "Escriba el radio de la figura geometrica"
+    leer(radio)
+    si(ladio>0 && altura>0)
+        volumen=pi*radio*radio*altura
+        mostrar(El volumen es "volumen")
+    sino
+        mostrar(Los valores ingresados son negativos, no se puede hacer la operacion)
+    
+    finsi
+
+Fin
