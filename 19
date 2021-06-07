@@ -1,0 +1,14 @@
+Inicio
+    var numero, aleatorio
+    esribir" Escriba un numero"
+    leer(numero)
+    si(numero%5==0 && numero>0 && numero<26)
+        aleatorio=aleatorio(1,1000)
+        mostrar(Es multoplo de cinco)
+        mostrar(El numero aleatorio es "aleatorio")
+    sino 
+        mostrar(El numero no es multoplo de cinco)
+
+
+
+Fin
