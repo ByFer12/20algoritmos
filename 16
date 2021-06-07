@@ -1,0 +1,18 @@
+Inicio
+    var numero1
+    var numero2
+    var numero3
+    escribir"Ingrese un nunero"
+    leer(numero1)
+    escribir"Ingrese otro numero"
+    leer(numero2)
+    escribir"Ingrese otro numero"
+    leer(numero3)
+    si (numero1>numero2 && numero1>numero3)
+        mostrar("numero1" es mayor)
+    sino si(numero2>numero1 && numero2>numero3)
+        mostrar("numero2" es mayor) 
+    sino 
+        mostrar("numero3" es mayor)
+    finsi
+   Fin 
