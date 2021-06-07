@@ -1,0 +1,14 @@
+Iniio
+    var base
+    var altura
+    var area
+    var perimetro
+    Escribir "Ingrese la base del rectángulo"
+    leer(base)
+    Escribir "Ingrese la altura del rectángulo"
+    leer(altura)
+    area=base*altura
+    perimetro=2*(base*altura)
+    mostrar(El area del rectángulo es de "area")
+    mostrar(El perimetro del rectángulo es de "perimetro")
+Fin
