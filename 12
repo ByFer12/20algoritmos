@@ -2,6 +2,6 @@ Inicio
     var temperatura, tempFinal
     escribir "Ingrese la temperatura"
     leer(temperatura)
-    tempFinal=9/5(temperatura)+32
+   	
     mostrar(La temperatura en Fahrenheit es "tempFinal")
 Fin
